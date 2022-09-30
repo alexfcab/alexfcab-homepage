@@ -1,0 +1,30 @@
+{
+  "name": "alexfcab-homepage",
+  "version": "1.0.0",
+  "description": "alexfcab's website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "alexfcab <alejandrofcabrita@gmail.com>",
+  "license": "GPL",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.10",
+    "@chakra-ui/react": "^2.3.4",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.3.6",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-next": "^12.3.1",
+    "prettier": "^2.7.1"
+  }
+}
