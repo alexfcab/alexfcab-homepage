@@ -20,7 +20,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-title">
                         Alejandro Fernández
                     </Heading>
-                    <p>Computer Science Engineer ( Cybersecurity Intern / Developer )</p>
+                    <p>Computer Science Engineer ( CyberThreat Intelligence Intern / Developer )</p>
                 </Box>
                 <Box
                     flexShrink={0}
