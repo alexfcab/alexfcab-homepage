@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem, } from '../components/grid-item'
 import thumbRESTAPI from '../public/images/works/thumbRESTAPI.png'
@@ -15,7 +15,7 @@ const Works = () => {
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section delay={0.1}>
                     <WorkGridItem id="restapi" title="REST API" thumbnail={thumbRESTAPI}>
-                        First project developing a REST API for a "Geocaching" app (publishing,
+                        First project developing a REST API for a &quot;Geocaching&quot; app (publishing,
                         editing and finding treasures in different locations).
                     </WorkGridItem>
                 </Section>

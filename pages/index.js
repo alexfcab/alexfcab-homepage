@@ -1,10 +1,9 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, SimpleGrid, useColorModeValue } from '@chakra-ui/react'
+import { Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, useColorModeValue } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 
@@ -94,7 +93,7 @@ const Page = () => {
 
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                    Let's get in touch
+                    Let&apos;s get in touch
                 </Heading>
                 <List>
                     <ListItem>
