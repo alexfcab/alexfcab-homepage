@@ -10,7 +10,7 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 const Page = () => {
     return (
         <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mt={6} mb={6} align="center">
+            <Box borderRadius="lg" bg={useColorModeValue('#f5f5f5', 'whiteAlpha.200')} p={3} mt={6} mb={6} align="center">
                 Hello, I&apos;m a full-stack developer based in Spain!
             </Box>
 
@@ -49,7 +49,7 @@ const Page = () => {
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
-                        <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
+                        <Button rightIcon={<ChevronRightIcon />} colorScheme="messenger">
                             See my portfolio
                         </Button>
                     </NextLink>

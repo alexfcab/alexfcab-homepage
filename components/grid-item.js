@@ -27,7 +27,7 @@ export const WorkGridItem = ({children, id, title, thumbnail}) => (
                 <Image w="full" src={thumbnail} alt={title} className="grid-item-thumbnail"
                 placeholder="blur" />
                 <LinkOverlay href={`/works/${id}`} >
-                    <Text fontFamily="'M PLUS Rounded 1c'" fontWeight='bold' mt={2} fontSize={20} >
+                    <Text fontFamily="'Plus Jakarta Sans'" fontWeight='bold' mt={2} fontSize={20} >
                         {title}
                     </Text>
                 </LinkOverlay>

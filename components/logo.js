@@ -12,6 +12,9 @@ height: 30px;
 line-height: 20px;
 padding: 10px;
 
+img {
+    transition: 200ms ease;
+}
 &:hover img{
     transform: rotate(20deg);
 }
@@ -26,7 +29,7 @@ const Logo = () => {
                     <Image src={codeBracketsImg} width={20} height={20} alt="logo"></Image>
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily="M PLUS Rounded 1c"
+                        fontFamily="Plus Jakarta Sans"
                         fontWeight="bold"
                         ml={3}
                     >Alejandro Fernández</Text>
