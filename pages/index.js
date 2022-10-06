@@ -3,6 +3,7 @@ import { Button, Container, Box, Heading, Image, Link, List, ListItem, Icon, use
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import Form from '../components/form'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
@@ -111,6 +112,12 @@ const Page = () => {
                         </Link>
                     </ListItem>
                 </List>
+            </Section>
+            <Section delay={0.4}>
+                <Heading as="h3" variant="section-title">
+                    Contact
+                </Heading>
+                <Form />
             </Section>
         </Container>
     )
