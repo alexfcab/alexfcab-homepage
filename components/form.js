@@ -55,9 +55,10 @@ export const Form = () => {
                 <FormLabel>Phone</FormLabel>
                 <InputGroup>
                     <InputLeftElement
-                        pointerEvents='none'
-                        children={<PhoneIcon color='gray.300' />}
-                    />
+                        pointerEvents='none'>
+                            <PhoneIcon color='gray.300' />
+                    </InputLeftElement>
+                    
                     <Input type="tel" placeholder='XXX XXX XXX' {...register('phone')} />
                 </InputGroup>
             </FormControl>
