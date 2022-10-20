@@ -5,14 +5,14 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Form from '../components/form'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoLocationSharp } from 'react-icons/io5'
 
 
 const Page = () => {
     return (
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('#f5f5f5', 'whiteAlpha.200')} p={3} mt={6} mb={6} align="center">
-                Hello, I&apos;m a full-stack developer based in Spain!
+                Hello, I&apos;m a full-stack developer based in {<Icon as={IoLocationSharp} w={3} h={3} />}Spain!
             </Box>
 
             <Box display={{ md: 'flex' }}>
