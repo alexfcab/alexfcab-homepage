@@ -309,9 +309,9 @@ const Navbar = (props)=>{
                     },
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(LinkItem, {
-                            href: "/works",
+                            href: "/projects",
                             path: path,
-                            children: "Works"
+                            children: "Projects"
                         }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(LinkItem, {
                             target: "_blank",
@@ -360,11 +360,11 @@ const Navbar = (props)=>{
                                                 })
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                href: "/works",
+                                                href: "/projects",
                                                 passHref: true,
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.MenuItem, {
                                                     as: _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__.Link,
-                                                    children: "Works"
+                                                    children: "Projects"
                                                 })
                                             })
                                         ]
