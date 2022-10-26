@@ -19,8 +19,8 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 )
 
 export const WorkGridItem = ({children, title, thumbnail, badge, badgeColor}) => (
-    <Box w="100%" align="center" borderImage="linear-gradient(to bottom, red, blue) 1 100%">
-        <Image src={thumbnail} alt={title} objectFit='cover' borderRadius='10px' className="grid-item-thumbnail"
+    <Box w="100%" align="center" >
+        <Image src={thumbnail} alt={title} objectFit='cover' borderRadius='10px' loading='lazy' className="grid-item-thumbnail"
         placeholder="blur" />
             <Text fontFamily="'Plus Jakarta Sans'" fontWeight='bold' mt={2} fontSize={20} >
                 {title} <Badge colorScheme={badgeColor}>{badge}</Badge>
